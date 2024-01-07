@@ -1,0 +1,80 @@
+/* naam:
+*/
+
+/* 
+kleuren:
+    oranje: orange
+    wit:    white
+    blauw:  0090e3
+*/
+body {
+}
+
+form {
+    width: 700px;
+}
+
+form label, form input, form span, textarea{
+    font-size: 18pt;
+}
+
+div {
+    border: 2px solid orange;
+    padding: 15px;
+    margin-bottom: 6px;
+}
+
+
+
+#producten {
+    border: none;
+    padding: 0;
+}
+#producten label {
+    width: 25%;
+}
+#producten div {
+    height: auto;
+}
+#producten img {
+    vertical-align: top;
+    width: 50%;
+}
+#producten input[type=number] {
+    width: 40px;
+}
+
+#betaalwijze {
+    display: inline;
+    border: none;
+}
+#betaalwijze img {
+    vertical-align: bottom;
+    width: 60px;
+}
+
+form div:nth-child(3) img {
+    height: 20px;
+}
+
+
+input[id="nummer"] {
+    width: 16.66%;
+    margin-left: 10px;
+}
+input[id="straat"] {
+    width: 50%;
+    margin-left: 40px;
+}
+
+input[type=submit] {
+    background-color: #0090e3;
+    height: 3em;
+}
+textarea {
+    box-sizing: border-box;
+    height: 12em;
+}
+input[type=submit], textarea {
+    width: 100%;
+}

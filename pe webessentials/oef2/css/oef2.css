@@ -1,0 +1,42 @@
+/*naam:  Hicham Nifar
+*/
+
+/*
+    blauw   0090e3
+    geel    f3f5cb
+    wit     white
+*/
+table {
+    width: 750px;
+    table-layout: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px 20px;
+}
+
+thead th {
+    color: white;
+    background-color: #0090e3;
+    font-family: cursive, serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+tbody td {
+    color: black;
+    font-family: monospace;
+    font-size: 18pt;
+    text-align: right;
+}
+
+tbody tr:nth-child(even), tbody td[rowspan] {
+    background-color: #f3f5cb;
+}
+tbody tr:nth-child(odd) {
+    background-color: white;
+}

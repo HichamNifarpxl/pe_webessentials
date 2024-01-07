@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- naam: Hicham Nifar-->
+<head>
+    <title>Oef3</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/oef3.css">
+</head>
+<body>
+
+<main>
+    <h1>Bedankt voor je bestelling</h1>
+
+    <form method="get" action="bestel.html" enctype="text/plain">
+        <div id="producten">
+            <div>
+                <label for="lego_trein">Lego trein <img src="assets/images/train1.jpg" alt="train1.jpg"> aantal</label>
+                <input type="number" id="lego_trein" name="aantal_legotrein1">
+            </div>
+            <div>
+                <label for="lego_set">Lego set <img src="assets/images/lego1.jpg" alt="lego1.jpg"> aantal</label>
+                <input type="number" id="lego_set" name="aantal_lego1">
+            </div>
+        </div>
+        <div>
+            <span>Betaalwijze</span>
+            <div id="betaalwijze">
+                <input type="radio" id="VISA" value="visa" name="betaalwijze">
+                <label for="VISA"> <img src="assets/images/visa.png" alt="visa.png"> </label>
+
+                <input type="radio" id="mastercard" value="mastercard" name="betaalwijze">
+                <label for="mastercard"><img src="assets/images/mastercard.png" alt="mastercard.png"></label>
+
+                <input type="radio" id="overschrijving" value="overschrijving" name="betaalwijze">
+                <label for="overschrijving">overschrijving</label>
+            </div>
+        </div>
+        <div>
+            <label for="opmerking">Opmerking</label><br>
+            <textarea id="opmerking" name="opmerking"></textarea>
+        </div>
+        <div>
+            <label for="straat">Straat</label>
+            <input type="text" id="straat" name="straat">
+            <label for="nummer">Nummer</label>
+            <input type="text" id="nummer" name="nummer">
+        </div>
+        <div>
+            <input type="submit" value="bestellen">
+        </div>
+
+    </form>
+
+
+</main>
+
+</body>
+</html>
+
