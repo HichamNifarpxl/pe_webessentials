@@ -143,10 +143,13 @@ article img {
         width: 48%;
     }
     nav li:nth-child(3) span {
-        visibility: visible;
+        display: inline;
     }
 
     #recent_bekeken article {
         width: 25%;
+    }
+    .shoppingcart{
+        display: none;
     }
 }
